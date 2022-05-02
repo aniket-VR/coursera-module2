@@ -1,0 +1,76 @@
+.sectionback{
+    border-radius: 5px;
+    background: #fcdede;
+    flex-basis: 31%;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+#menu{
+    text-align: center;
+}
+.title{
+    margin-top: -3px;
+    margin-bottom: -10px;
+    border: 3px solid black;
+    text-align: right;
+    width: fit-content;
+    margin-right: -3px;
+    box-sizing: border-box;
+    padding: 5px 15px 5px 15px;
+    float: right;
+}
+.paragra{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#rowe{
+    display: flex;
+
+}
+@media  (max-width: 991px) and (min-width: 768px){
+
+#firstbox{
+    border-radius: 5px;
+    background: #fcdede;
+    flex-basis: 47%;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    width: 46%;
+    box-sizing: border-box;
+}
+#secondbox{
+    border-radius: 5px;
+    background: #fcdede;
+    flex-basis: 47%;
+    padding: 10px;
+    margin: 15px;
+    float: right;
+    width: 46%;
+    box-sizing: border-box;
+}
+#thirdbox{
+    border-radius: 5px;
+    background: #fcdede;
+    flex-basis: 97%;
+    padding: 10px;
+    margin: 20px;
+    clear: left;
+    width: 94%;
+    float: left;
+    box-sizing: border-box;
+}
+#rowe{
+    display: block;
+}
+}
+@media (max-width: 767px){
+
+    #rowe{
+        flex-direction: column;
+    }
+}
